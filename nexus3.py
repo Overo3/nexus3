@@ -1,7 +1,7 @@
 import discord
 import os
 
-TOKEN = MTIyNjM1NjUyNTI5NjI1OTE1NA.GrqA79.IWQv_n-4iXJdSEqeOGKMiXXgzqAPAk2Axtw9_k
+TOKEN = os.environ["DISCORD_TOKEN"]
 eventsDB = {"test":"dataTesting"}
 
 intents = discord.Intents.default()
